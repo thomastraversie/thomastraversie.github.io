@@ -1,0 +1,41 @@
+h1 {color:SteelBlue;}
+a {color:SteelBlue;text-decoration: none;}
+h2 {color:SteelBlue;}
+body {background-color:WhiteSmoke; font-family:Tahoma;margin: 0;}
+
+.topnav {
+  padding:0px;
+  overflow: hidden;
+  background-color: WhiteSmoke;
+}
+
+.topnav a {
+  float: left;
+  color: LightSlateGrey;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: WhiteSmoke;
+  color: LightSlateGrey;
+  text-decoration: underline; 
+}
+
+.topnav a.active {
+  background-color: WhiteSmoke;
+  color: LightSlateGrey;
+  text-decoration: underline; 
+}
+
+.content {padding-top:5px;padding-bottom:20px;padding-left:40px;padding-right:40px;margin-top: 50px;margin-bottom: 50px;margin-left: 280px;margin-right: 280px;background-color:White;border:2px solid LightSlateGrey;}
+
+.badge {
+  background-color: SteelBlue;
+  color: WhiteSmoke;
+  padding: 0px 3px;
+  text-align: center;
+  border-radius: 6px;
+}
