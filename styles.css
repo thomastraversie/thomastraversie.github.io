@@ -1,6 +1,6 @@
-h1 {color:SteelBlue;}
+h1 {color:SteelBlue;margin-bottom:5%;}
 a {color:SteelBlue;text-decoration: none;}
-h2 {color:SteelBlue;}
+h2 {color:SteelBlue;margin-top:5%;}
 body {background-color:WhiteSmoke; font-family:Tahoma;margin: 0;}
 
 .content {padding-top:0.5%;padding-bottom:0.5%;padding-left:2.5%;padding-right:2.5%;
