@@ -1,9 +1,55 @@
-h1 {color:SteelBlue;margin-bottom:5%;}
-a {color:SteelBlue;text-decoration: none;}
-h2 {color:SteelBlue;margin-top:5%;}
-body {background-color:WhiteSmoke; font-family:Tahoma;margin: 0;}
+h1 {
+  color: SteelBlue;
+  margin-bottom: 5%;
+  font-weight: 800;
+}
 
-.content {padding-top:0.5%;padding-bottom:0.5%;padding-left:2.5%;padding-right:2.5%;
-          margin-top: 3.5%;margin-bottom: 3.5%;margin-left: 18%;margin-right: 18%;
-          background-color:White;
-          border:2px solid LightSlateGrey;}
+a {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: LightSlateGrey;
+  text-decoration: none;
+}
+
+h2 {
+  color: SteelBlue;
+  margin-top: 6%;
+  font-weight: 800;
+}
+
+body {
+  background-color: WhiteSmoke;
+  font-family: Tahoma,Verdana,sans-serif;
+  margin: 0;
+}
+
+p {
+  text-align: justify
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 1em;
+}
+
+li {
+  list-style-type: "\22A2";
+  display: list-item;
+  padding-inline-start: 0.5em;
+}
+
+.content {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: White;
+  border: 2px solid LightSlateGrey;
+}
