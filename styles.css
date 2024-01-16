@@ -1,6 +1,6 @@
 h1 {
   color: SteelBlue;
-  margin-bottom: 5%;
+  margin-bottom: 50px;
   font-weight: 800;
 }
 
@@ -16,7 +16,7 @@ a:hover {
 
 h2 {
   color: SteelBlue;
-  margin-top: 6%;
+  margin-top: 60px;
   font-weight: 800;
 }
 
@@ -42,14 +42,14 @@ li {
 }
 
 .content {
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  margin-top: 3.5%;
-  margin-bottom: 3.5%;
-  margin-left: 18%;
-  margin-right: 18%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 260px;
+  margin-right: 260px;
   background-color: White;
   border: 2px solid LightSlateGrey;
 }
