@@ -1,6 +1,6 @@
 h1 {
   color: SteelBlue;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 
@@ -16,7 +16,8 @@ a:hover {
 
 h2 {
   color: SteelBlue;
-  margin-top: 60px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 p {
-  text-align: justify
+  text-align: justify;
 }
 
 ul {
@@ -40,6 +41,10 @@ li {
   list-style-type: "\22A2";
   display: list-item;
   padding-inline-start: 0.5em;
+}
+
+b {
+  color: SteelBlue;
 }
 
 .content {
