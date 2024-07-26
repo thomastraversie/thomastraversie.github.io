@@ -1,24 +1,29 @@
 h1 {
-  color: SteelBlue;
+  color: #4863A0;
   margin-bottom: 20px;
   font-weight: 800;
 }
 
 a {
-  color: SteelBlue;
+  color: #4863A0;
   text-decoration: none;
 }
 
 a:hover {
-  color: LightSlateGrey;
+  color: SlateGrey;
   text-decoration: none;
 }
 
 h2 {
-  color: SteelBlue;
+  color: #4863A0;
   margin-top: 50px;
   margin-bottom: 20px;
   font-weight: 800;
+}
+
+h3 {
+  color: SlateGrey;
+  margin-top: 30px;
 }
 
 body {
@@ -41,10 +46,11 @@ li {
   list-style-type: "\22A2";
   display: list-item;
   padding-inline-start: 0.5em;
+  margin-top: 5px;
 }
 
 b {
-  color: SteelBlue;
+  color: #4863A0;
 }
 
 .content {
@@ -54,8 +60,8 @@ b {
   padding-right: 40px;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 260px;
-  margin-right: 260px;
+  margin-left: 430px;
+  margin-right: 430px;
   background-color: White;
-  border: 2px solid LightSlateGrey;
+  border: 2px solid SlateGrey;
 }
