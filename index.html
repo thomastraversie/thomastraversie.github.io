@@ -6,10 +6,11 @@
     <title>Thomas Traversié</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
     <meta name="google-site-verification" content="TwNAJrccNC5ilH6lnwJyDGNib4cLCLcG4WRCAo9gyVI" />
 </head>
 
-<body>
+<body onload="myFunction()">
 
 <div class="content">
 
@@ -22,8 +23,6 @@
 <a href="#talks">Talks</a>
 &nbsp&nbsp
 <a href="#teaching">Teaching</a>
-&nbsp&nbsp
-<a href="#contact">Contact</a>
 
 </div>
 
@@ -36,30 +35,42 @@
 <a href="https://www.researchgate.net/profile/Marc-Aiguier">Marc Aiguier</a>, 
 <a href="http://www.lsv.fr/~dowek/">Gilles Dowek</a>
 and <a href="https://www.cri.ensmp.fr/people/hermant/">Olivier Hermant</a>, 
-in the <a href="https://logimics.pages.centralesupelec.fr/">Logimics</a> team 
+in the <a href="https://arcade.pages.centralesupelec.fr/">Arcade</a> team 
 at <a href="http://mics.centralesupelec.fr/">MICS laboratory</a>
 and in the <a href="https://deducteam.gitlabpages.inria.fr/index.html">Deducteam</a> 
 at <a href="https://lmf.cnrs.fr/">Laboratoire Méthodes Formelles</a>.</p>
 
-<p>As a student, I was part of the research curriculum of <a href="https://www.centralesupelec.fr/">CentraleSupélec</a>, 
+<p>Before that, I was part of the research curriculum of <a href="https://www.centralesupelec.fr/">CentraleSupélec</a>, 
 under the supervision of <a href="https://valentinblot.org/pro/">Valentin Blot</a> 
 and <a href="http://www.lsv.fr/~dowek/">Gilles Dowek</a>,
 at <a href="https://lmf.cnrs.fr/">Laboratoire Méthodes Formelles</a>. 
 
-My work was focused on the &lambda;&Pi;-calculus modulo theory and on the
-<a href="https://github.com/Deducteam/lambdapi">Lambdapi</a>
-proof assistant. I <a href="https://github.com/Deducteam/dedukti_set_theory">implemented</a> an encoding of set theory in Lambdapi.
+I <a href="https://github.com/Deducteam/dedukti_set_theory">implemented</a> an encoding of set theory in the
+<a href="https://github.com/Deducteam/lambdapi">Lambdapi</a> proof assistant.
 Working with <a href="https://theowinterhalter.github.io/">Théo Winterhalter</a>, I studied the replacement of rewrite rules by axioms inside the &lambda;&Pi;-calculus modulo theory.</p>
+
+
+<br/>
+<p>
+<a href="https://github.com/thomastraversie"><span style="vertical-align: middle"><i class="fa fa-github" style="font-size:32px"></i></span> GitHub</a>
+&nbsp&nbsp
+<a href="https://orcid.org/0009-0009-1193-4216"><span style="vertical-align: middle"><i class="fa fa-orcid" style="font-size:32px"></i></span> ORCID</a>
+&nbsp&nbsp
+<a href="https://hal.science/search/index/q/*/authIdHal_s/thomas-traversie"><span style="vertical-align: middle"><i class="fa fa-hal" style="font-size:32px"></i></span> HAL</a>
+</p>
+<p>
+<span style="color: #4863A0"><span style="vertical-align: middle"><i class="fa fa-envelope" style="font-size:32px"></i></span> thomas (dot) traversie (at) centralesupelec (dot) fr</a></span>
+</p>
 
 
 
 <h2>Research interests</h2>
 
 <ul>
+<li>Intuitionistic logic</li>
 <li>Logical frameworks</li>
 <li>Type theory</li>
 <li>Rewrite rules</li>
-<li>Intuitionistic logic</li>
 </ul>
 
 
@@ -132,20 +143,28 @@ with <a href="https://valentinblot.org/pro/">Valentin Blot</a> and <a href="http
 <ul>
 <li>Modélisation logique et systèmes formels, CentraleSupélec, 2024-2025</li>
 <li>Systèmes d'information et Programmation, CentraleSupélec, 2024-2025</li>
-<li>Algorithmique et complexité, CentraleSupélec, 2023-2024</li>
+<li>Algorithmique et complexité, CentraleSupélec, 2023-2024, 2024-2025</li>
 <li>Modélisation logique & Langages et automates, CentraleSupélec, 2023-2024</li>
 <li>Informatique théorique, CentraleSupélec, 2023-2024</li>
 </ul>
 
 
 
-<h2 id="contact">Contact</h2>
+<br/>
+<br/>
+Last update: <span id="demo"></span>.
+  
+<script>
+  function myFunction() {
+    var x = document.lastModified;
+    document.getElementById("demo").innerHTML = new Date(x).toISOString().substr(0, 10);;
+  }
+</script>
 
-<p>Email: thomas (dot) traversie (at) centralesupelec (dot) fr</p>
-<p>GitHub: <a href="https://github.com/thomastraversie">thomastraversie</a></p>
 
 
 </div>
+
 
 </body>
 </html>
