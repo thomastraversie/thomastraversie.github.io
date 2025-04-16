@@ -12,33 +12,38 @@
 
 <body onload="myFunction()">
 
-<div class="content">
 
-<h1>Thomas Traversié</h1>
+<div class="title">
 
-<a href="#about">About me</a>
-&nbsp&nbsp
-<a href="#publi">Publications</a>
-&nbsp&nbsp
-<a href="#talks">Talks</a>
-&nbsp&nbsp
-<a href="#teaching">Teaching</a>
+<span style="font-size:45px;font-family: 'Courier New', monospace;">Thomas Traversié</span>
+
+<span style="float:right;font-size:20px;margin-top:1%">
+<a class="nav" href="#about">About me</a>
+&nbsp&nbsp&nbsp&nbsp
+<a class="nav" href="#publi">Publications</a>
+&nbsp&nbsp&nbsp&nbsp
+<a class="nav" href="#talks">Talks</a>
+&nbsp&nbsp&nbsp&nbsp
+<a class="nav" href="#teaching">Teaching</a>
+</span>
 
 </div>
 
+
+
 <div class="content">
 
-<img src="Photo.jpg" alt="Me" width="15%" align="right" style="margin-left:4%;margin-right:3%;margin-top:3%;">
+<img src="Photo.jpg" alt="Me" width="20%" align="left" style="border-radius: 50%;margin-right:3%">
 
-
-<p style="margin-top: 30px;" id="about">I am a PhD student under the supervision of 
+<p id="about">I am a PhD student under the supervision of 
 <a href="https://www.researchgate.net/profile/Marc-Aiguier">Marc Aiguier</a>, 
 <a href="http://www.lsv.fr/~dowek/">Gilles Dowek</a>
 and <a href="https://www.cri.ensmp.fr/people/hermant/">Olivier Hermant</a>, 
 in the <a href="https://arcade.pages.centralesupelec.fr/">Arcade</a> team 
 at <a href="http://mics.centralesupelec.fr/">MICS laboratory</a>
 and in the <a href="https://deducteam.gitlabpages.inria.fr/index.html">Deducteam</a> 
-at <a href="https://lmf.cnrs.fr/">Laboratoire Méthodes Formelles</a>.</p>
+at <a href="https://lmf.cnrs.fr/">Laboratoire Méthodes Formelles</a>.
+</p>
 
 <p>Before that, I was part of the research curriculum of <a href="https://www.centralesupelec.fr/">CentraleSupélec</a>, 
 under the supervision of <a href="https://valentinblot.org/pro/">Valentin Blot</a> 
@@ -47,20 +52,31 @@ at <a href="https://lmf.cnrs.fr/">Laboratoire Méthodes Formelles</a>.
 
 I <a href="https://github.com/Deducteam/dedukti_set_theory">implemented</a> an encoding of set theory in the
 <a href="https://github.com/Deducteam/lambdapi">Lambdapi</a> proof assistant.
-Working with <a href="https://theowinterhalter.github.io/">Théo Winterhalter</a>, I studied the replacement of rewrite rules by axioms inside the &lambda;&Pi;-calculus modulo theory.</p>
+Working with <a href="https://theowinterhalter.github.io/">Théo Winterhalter</a>, I studied the replacement of rewrite rules by axioms inside the &lambda;&Pi;-calculus modulo theory.
+</p>
 
 
-<br/>
-<p>
-<a href="https://github.com/thomastraversie"><span style="vertical-align: middle"><i class="fa fa-github" style="font-size:32px"></i></span> GitHub</a>
+<p style="text-align:center;font-size:40px">
+<a onClick="toggle('email')"><i class="fa fa-envelope"></i></a>
 &nbsp&nbsp
-<a href="https://orcid.org/0009-0009-1193-4216"><span style="vertical-align: middle"><i class="fa fa-orcid" style="font-size:32px"></i></span> ORCID</a>
+<a href="https://github.com/thomastraversie"><i class="fa fa-github"></i></a>
 &nbsp&nbsp
-<a href="https://hal.science/search/index/q/*/authIdHal_s/thomas-traversie"><span style="vertical-align: middle"><i class="fa fa-hal" style="font-size:32px"></i></span> HAL</a>
+<a href="https://orcid.org/0009-0009-1193-4216"><i class="fa fa-orcid"></i></a>
+&nbsp&nbsp
+<a href="https://hal.science/search/index/q/*/authIdHal_s/thomas-traversie"><i class="fa fa-hal"></i></a>
 </p>
-<p>
-<span style="color: #4863A0"><span style="vertical-align: middle"><i class="fa fa-envelope" style="font-size:32px"></i></span> thomas (dot) traversie (at) centralesupelec (dot) fr</a></span>
+
+<p id="email" style="display:none;text-align:center;">
+thomas (dot) traversie (at) centralesupelec (dot) fr
 </p>
+
+<script>
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
 
 
 
@@ -70,7 +86,6 @@ Working with <a href="https://theowinterhalter.github.io/">Théo Winterhalter</a
 <li>Intuitionistic logic</li>
 <li>Logical frameworks</li>
 <li>Type theory</li>
-<li>Rewrite rules</li>
 </ul>
 
 
@@ -80,6 +95,18 @@ Working with <a href="https://theowinterhalter.github.io/">Théo Winterhalter</a
 <h3>Research papers</h3>
 
 <ul>
+<li><b>Formalizing Representation Theorems for a Logical Framework with Rewriting</b> <br>
+with <a href="https://kwarc.info/people/frabe/">Florian Rabe</a><br>
+Submitted, 2025 <br>
+<a href="https://hal.science/hal-05027872v1/document" target="_blank">[pdf]</a>
+<a href="https://github.com/Deducteam/TranslationTemplates" target="_blank">[implementation]</a>
+</li><br/>
+
+<li><b>Monad Translations for Higher-Order Logic</b> <br>
+Submitted, 2025 <br>
+<a href="" target="_blank">[pdf]</a>
+</li><br/>
+
 <li><b>Proofs for Free in &lambda;&Pi;-Calculus Modulo Theory</b> <br>
 <i>International Workshop on Logical Frameworks and Meta-Languages: Theory and Practice</i> (<a href="https://lfmtp.github.io/lfmtp-page/workshops/2024/">LFMTP 2024</a>) <br>
 <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LFMTP2024.4.pdf" target="_blank">[pdf]</a>
@@ -150,10 +177,12 @@ with <a href="https://valentinblot.org/pro/">Valentin Blot</a> and <a href="http
 </ul>
 
 
+<br/>
+<br/>
 
-<br/>
-<br/>
-Last update: <span id="demo"></span>.
+Last update: <span id="demo"></span>. <br>
+
+</div>
   
 <script>
   function myFunction() {
@@ -162,9 +191,6 @@ Last update: <span id="demo"></span>.
   }
 </script>
 
-
-
-</div>
 
 
 </body>
